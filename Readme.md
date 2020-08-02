@@ -2,6 +2,14 @@
 Fast access to .net fields/properties
 =====================================
 
+> This is a stopgap project, because the official upstream project has not been updated in the past period of time.
+>
+> At the same time, this project merged the pr submitted by other fork repo of the upstream project:
+> - https://github.com/mgravell/fast-member/pull/85
+> - https://github.com/mgravell/fast-member/pull/86
+> 
+> Please use upstream official projects first. https://github.com/mgravell/fast-member
+
 In .NET reflection is slow... well, kinda slow. If you need access to the members of an arbitrary type, with the type and member-names known only at runtime - then it is frankly **hard** (especially for DLR types). This library makes such access easy and fast.
 
 An introduction to the reasons behind fast-member can be found <a href="http://marcgravell.blogspot.com/2012/01/playing-with-your-member.html" target="_blank">on my blog</a>; example usage is simply:
