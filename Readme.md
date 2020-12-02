@@ -1,6 +1,13 @@
+<p>
+    <a href="https://alexinea.com" target="_blank" title="FastMember">
+        <img width="100" src="logo.png" />
+    </a>
+</p>
 
-Fast access to .net fields/properties
-=====================================
+# Fast access to .net fields/properties
+
+[![NuGet](https://img.shields.io/nuget/v/Alexinea.FastMember.svg)](https://nuget.org/packages/Alexinea.FastMember) 
+[![Nuget](https://img.shields.io/nuget/dt/Alexinea.FastMember.svg)](https://nuget.org/packages/Alexinea.FastMember)
 
 > This is a stopgap project, because the official upstream project has not been updated in the past period of time.
 >
@@ -55,3 +62,13 @@ using(var reader = ObjectReader.Create(data, "Id", "Name", "Description"))
 ### Ahead of Time
 Library emits IL code during runtime. Will not work in constrained Ahead of Time environments. Xamarin iOS and Unity IL2CPP are such.
 
+
+### Extension Project
+
+- [Alexinea.FastMember.Extensions](https://github.com/alexinea/alexinea-fast-member-extensions)
+
+In addition, we also recommend that you use [Leo](https://github.com/night-moon-studio/leo) based on NCC Natasha, a high-performance object reading and writing component.
+
+## License
+
+[Apache License 2.0](LICENSE)
