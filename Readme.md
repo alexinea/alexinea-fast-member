@@ -67,7 +67,7 @@ Library emits IL code during runtime. Will not work in constrained Ahead of Time
 
 - [Alexinea.FastMember.Extensions](https://github.com/alexinea/alexinea-fast-member-extensions)
 
-In addition, we also recommend that you use [Leo](https://github.com/night-moon-studio/leo) based on NCC Natasha, a high-performance object reading and writing component.
+In addition, we also recommend that you use [Leo](https://github.com/night-moon-studio/leo) based on [NCC Natasha](https://github.com/dotnetcore/Natasha), a high-performance object reading and writing component.
 
 ## License
 
